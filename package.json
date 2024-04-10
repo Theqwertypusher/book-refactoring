@@ -1,0 +1,9 @@
+{
+  "name": "book-refactoring",
+  "version": "1.0.0",
+  "description": "code snippets from Martin Fowler's Book: Refactoring",
+  "main": "index.js",
+  "repository": "https://github.com/Theqwertypusher/book-refactoring.git",
+  "author": "Jason Victor <qwerty920727@gmail.com>",
+  "license": "MIT"
+}
