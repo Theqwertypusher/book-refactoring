@@ -1,5 +1,5 @@
 /** initial problem */
-function statement(invoice: any, plays: any) {
+export function statement(invoice: any, plays: any) {
   let totalAmount = 0;
   let volumeCredits = 0;
   let result = `Statement for ${invoice.customer}\n`;
@@ -46,3 +46,5 @@ function statement(invoice: any, plays: any) {
   result += `You earned ${volumeCredits} credits\n`;
   return result;
 }
+
+export const greeting = () => "hello world";
