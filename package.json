@@ -5,5 +5,18 @@
   "main": "index.js",
   "repository": "https://github.com/Theqwertypusher/book-refactoring.git",
   "author": "Jason Victor <qwerty920727@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "install": "",
+    "dev": "nodemon ./chapter1/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "nodemon": "^3.1.4",
+    "tslib": "^2.6.3",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
 }
